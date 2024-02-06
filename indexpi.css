@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #931616; 
+    text-transform: lowercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo h1 {
+    color: #ffffff; 
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration-style: solid;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.container img {
+    width: 100%;
+    height: auto; 
+}
+
+.container::after {
+    content: "Nous trouver";
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #6e2a2a;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0 0 12px 14px; 
+}
+
+.carte {
+    text-align: center;
+    color: rgb(22, 77, 22);
+}
+
+.dessert-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.dessert-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.dessert-item img {
+    width: 100%;
+    height: auto;
+}
+
+.dessert-item h3 {
+    margin-top: 10px;
+}
+
+.container3 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    background-color: rgb(112, 29, 29);
+}
+
+.services-title {
+    color: #f0dcdc; 
+}
+
+.service-item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.service-item img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+}
+
+.service-text {
+    margin-left: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+    margin-top: 15px;
+    text-align: center; 
+}
+
+.contacter {
+    text-align: center;
+    color: green;
+}
+
+.center-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.logo-container img {
+    vertical-align: middle;
+}
+
+.logo-container p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.map-container {
+    margin-left: 20px; 
+}
+
+
+  
+  .footer {
+    background-color: rgb(80, 39, 39);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
